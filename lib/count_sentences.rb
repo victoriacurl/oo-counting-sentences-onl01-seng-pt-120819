@@ -3,8 +3,11 @@ require 'pry'
 class String
 
   def sentence?
-    "Hi, my name is Sophie.".end_with?(".")
-    #"Hi, my name is Sophie".end_with(".")
+    if self.end_with(".")
+      true
+    else
+      false
+    end
   end
 
   def question?
