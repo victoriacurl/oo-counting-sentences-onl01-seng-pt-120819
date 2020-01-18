@@ -4,7 +4,6 @@ class String
 
   def sentence?
     "Hi, my name is Sophie.".end_with?(".")
-    self.sentence = sentence
   end
 
   def question?
